@@ -1,24 +1,26 @@
 {
   "name": "@apiverve/stateboundaries",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "State Boundaries is a simple tool for getting the boundaries of a specific state's border. It returns the shape of the specified state's border.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "example": "node examples/basic.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apiverve/stateboundaries-API.git"
   },
   "keywords": [
-    "state boundaries","state boundaries api","state boundaries tool","state boundaries software","state boundaries service"
+    "state boundaries", "state boundaries api", "state boundaries tool", "state boundaries software", "state boundaries service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/apiverve/stateboundaries-API/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/api/stateboundaries?utm_source=npm",
+  "homepage": "https://apiverve.com/marketplace/stateboundaries?utm_source=npm",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
@@ -27,6 +29,6 @@
   "dependencies": {
     "node-fetch": "^3.3.2",
     "promise": "^8.3.0",
-    "axios": "1.7.9"
+    "axios": "1.13.2"
   }
 }
